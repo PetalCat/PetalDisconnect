@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        maven { url = uri("https://maven.fabricmc.net/") }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+
+    plugins {
+        id("fabric-loom") version providers.gradleProperty("loom_version").get()
+    }
+}
+
+rootProject.name = "PetalDisconnect"

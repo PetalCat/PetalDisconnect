@@ -1,0 +1,6 @@
+{
+  "key.category.petaldisconnect.category": "PetalDisconnect",
+  "key.petaldisconnect.quick_disconnect": "Quick Disconnect",
+  "modmenu.summaryTranslation.petaldisconnect": "Quick-disconnect tool.",
+  "modmenu.descriptionTranslation.petaldisconnect": "Quick-disconnect tool that can auto-disconnect on focus loss and optionally auto-reconnect.\n\nFeatures:\n• Auto-disconnect on focus loss\n• Optional auto-reconnect\n• Client-side only\n• Very lightweight"
+}

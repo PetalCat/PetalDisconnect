@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "petaldisconnect",
+  "version": "${version}",
+  "name": "PetalDisconnect",
+  "description": "",
+  "authors": [
+    {
+      "name": "PetalCat"
+    }
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/petaldisconnect",
+    "issues": "https://github.com/PetalCat/PetalDisconnect/issues",
+    "sources": "https://github.com/PetalCat/PetalDisconnect"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/petaldisconnect/icon.png",
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "dev.petalcat.petaldisconnect.PetalDisconnect"
+    ],
+    "client": [
+      "dev.petalcat.petaldisconnect.PetalClient"
+    ],
+    "modmenu": [
+      "dev.petalcat.petaldisconnect.PetalDisconnectModMenu"
+    ]
+  },
+
+  "mixins": [
+    "petaldisconnect.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.21.10",
+    "fabricloader": ">=0.16.7",
+    "fabric": "*"
+  },
+
+  "custom": {
+    "modmenu": {
+      "description": "Quick-disconnect client utility that can auto-disconnect on focus loss and optionally auto-reconnect.",
+      "badges": [
+        "client",
+        "config"
+      ],
+      "links": {
+        "homepage": "https://modrinth.com/mod/petaldisconnect",
+        "issues": "https://github.com/PetalCat/PetalDisconnect/issues",
+        "sources": "https://github.com/PetalCat/PetalDisconnect"
+      }
+    }
+  }
+}
