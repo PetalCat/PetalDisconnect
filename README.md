@@ -14,6 +14,8 @@ Whether you need an instant panic key, automatic disconnects when the game loses
 Instantly drop your server connection using a dedicated keybind.
 Perfect for panic exits, privacy, or quickly switching tasks.
 
+Note: The quick-disconnect keybind itself is configured under Controls → Keybinds, not in the mod’s settings menu.
+
 🪟 Auto-Disconnect on Lost Focus
 
 Optionally disconnects you the moment your game window loses focus.
@@ -30,6 +32,8 @@ Accessible through Mod Menu, offering clean toggles for:
 	•	Enable Quick Disconnect
 	•	Disconnect on Focus Loss
 	•	Auto Reconnect
+	
+Note: The quick-disconnect keybind itself is configured under Controls → Keybinds, not in the mod’s settings menu.
 
 ⸻
 
